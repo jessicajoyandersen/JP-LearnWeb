@@ -1,0 +1,93 @@
+/*index.html*/
+
+h1{
+    text-align: center;
+    font-family: "ヒラギノ角ゴ Pro W3";
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#navlist{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#navlist li{
+    display: inline;
+    float: top;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+#navlist li a{
+    border-right: none;
+    padding: 0;
+    *margin: 0 0 10px 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font: normal 10px/18px "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+}
+#navlist li a:hover{
+    color: grey;
+    background: skyblue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: #2F4F4F;
+  padding: 10px;
+}
+.grid-item {
+    color: #2F4F4F;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: rgba(224, 214, 255, 0.8);
+  border: 1px solid #2F4F4F;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#agyou, #kagyou, #sagyou, #tagyou, #nagyou, #hagyou, #magyou, #yagyou, #ragyou, #wagyou, #n{
+    color: black;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#digraphs{
+    color: black;
+}
+
+/*agyou*/
+
+.img-container {
+    float: left;
+    width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding: 5px; /* if you want space between the images */
+}
+
+button{
+    position: absolute;
+    padding: 0px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #303030;
+    background: #87cdc7;
+    color: #fff;
+    cursor: pointer;
+    font: 1.2em 'consolas';
+    transition: transform 300ms ease;
+    z-index: 2;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+#canvasAhira{
+    border-width: 2px;
+    border-style: dotted;
+    border-color: black;
+}
