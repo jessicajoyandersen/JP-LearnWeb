@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1">
         <title>A-gyou</title>
-        <link rel="stylesheet" type="text/css" href="_assets/styles.css">
+        <link rel="stylesheet" type="text/css" href="./styles.css">
 
     </head>
     <body>
@@ -30,6 +30,8 @@
 
         <div class="vowel-intro">
             <p>The first line of Japanese kana also constitute the 5 Japanese vowels. In order, these are: "a" (ah), "i" (ee), "u" (oo), "e" (eh), and "o" (oh).</p>
+            <p>Examine the following GIFs, and notice the stroke order. Then, practice writing these characters in the canvases, bearing in mind the sound they each represent.</p>
+            <p>If you wish to reset the canvases, simply refresh the page.</p>
         </div>
         <br>
 
@@ -47,32 +49,50 @@
                 <a href="https://commons.wikimedia.org/wiki/File:Hiragana_%E3%81%82_stroke_order_animation.gif">
                     <img id="aHira" src="_assets\Hiragana_あ_stroke_order_animation.gif" alt="stroke order gif of hiragana A">
                 </a>
-                    <button onclick="resize()">Clear Canvas</button>
-                    <canvas id="canvasAhira"></canvas>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Hiragana_%E3%81%84_stroke_order_animation.gif">
                     <img id="iHira" src="_assets\Hiragana_い_stroke_order_animation.gif" alt="stroke order gif of hiragana I">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas2">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Hiragana_%E3%81%86_stroke_order_animation.gif">
                     <img id="uHira" src="_assets\Hiragana_う_stroke_order_animation.gif" alt="stroke order gif of hiragana U">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                        <canvas id="myCanvas3">
+                            Sorry, your browser does not support HTML5 canvas technology.
+                        </canvas>
             </div>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Hiragana_%E3%81%88_stroke_order_animation.gif">
                     <img id="eHira" src="_assets\Hiragana_え_stroke_order_animation.gif" alt="stroke order gif of hiragana E">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas4">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Hiragana_%E3%81%8A_stroke_order_animation.gif">
                     <img id="oHira" src="_assets\Hiragana_お_stroke_order_animation.gif" alt="stroke order gif of hiragana O">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas5">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
 
@@ -88,33 +108,53 @@
 
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Katakana_%E3%82%A2_stroke_order_animation.gif">
-                    <img id="aKata" src="_assets\Katakana_ア_stroke_order_animation.gif" alt="stroke order gif of hiragana A">
+                    <img id="aKata" src="_assets\Katakana_ア_stroke_order_animation.gif" alt="stroke order gif of katakana A">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas6">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
             <p></p>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Katakana_%E3%82%A4_stroke_order_animation.gif">
-                    <img id="iKata" src="_assets\Katakana_イ_stroke_order_animation.gif" alt="stroke order gif of hiragana I">
+                    <img id="iKata" src="_assets\Katakana_イ_stroke_order_animation.gif" alt="stroke order gif of katakana I">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas7">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Katakana_%E3%82%A6_stroke_order_animation.gif">
-                    <img id="uKata" src="_assets\Katakana_ウ_stroke_order_animation.gif" alt="stroke order gif of hiragana U">
+                    <img id="uKata" src="_assets\Katakana_ウ_stroke_order_animation.gif" alt="stroke order gif of katakana U">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas8">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
             <div class="image-container">
                 <a href="https://commons.wikimedia.org/wiki/File:Katakana_%E3%82%A8_stroke_order_animation.gif">
-                    <img id="eKata" src="_assets\Katakana_エ_stroke_order_animation.gif" alt="stroke order gif of hiragana E">
+                    <img id="eKata" src="_assets\Katakana_エ_stroke_order_animation.gif" alt="stroke order gif of katakana E">
                 </a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas9">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
             </div>
         <br>
             <div class="image-container"></div>
                 <a href="https://commons.wikimedia.org/wiki/File:Katakana_%E3%82%AA_stroke_order_animation.gif">
-                    <img id="oKata" src="_assets\Katakana_オ_stroke_order_animation.gif" alt="stroke order gif of hiragana O">
+                    <img id="oKata" src="_assets\Katakana_オ_stroke_order_animation.gif" alt="stroke order gif of katakana O">
             </a>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <canvas id="myCanvas10">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
         <script src="_assets\js.js"></script>
     </body>
 </html>

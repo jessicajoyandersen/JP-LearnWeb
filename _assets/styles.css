@@ -68,26 +68,64 @@ h1{
     padding: 5px; /* if you want space between the images */
 }
 
-button{
-    position: absolute;
-    padding: 0px;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 0 15px #303030;
-    background: #87cdc7;
-    color: #fff;
-    cursor: pointer;
-    font: 1.2em 'consolas';
-    transition: transform 300ms ease;
-    z-index: 2;
-}
+#myCanvas {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+  }
 
-button:active{
-    transform: scale(0.95);
+#myCanvas2 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
 }
-
-#canvasAhira{
-    border-width: 2px;
-    border-style: dotted;
-    border-color: black;
+#myCanvas3 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas4 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas5 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas6 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas7 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas8 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas9 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
+}
+#myCanvas10 {
+    width: 60%;
+    height: 235px;
+    border: solid 1px #c8def0;
+    border-radius: 10px;
 }
