@@ -1,0 +1,44 @@
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="6">The 50 Japanese Sounds (Gojuuon)</td>
+                </tr>
+                <tr>  
+                    <td>
+                        Hiragana
+                    </td>
+                    <td>
+                        Katakana
+                    </td>
+                    <td>
+                        Sound
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        あ
+                    </td>
+                    <td>
+                        ア
+                    </td>
+                    <td>
+                        a
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Digraphs are listed below.</td>
+                </tr>
+            </tfoot>
+        </table>

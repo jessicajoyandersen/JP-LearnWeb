@@ -1,18 +1,15 @@
 /*index.html*/
-html{
+#navlist{
     background-color: rgba(233, 226, 255, 0.8);
 }
 
-body{
-    background-color: rgba(254, 219, 243, 0.8);
-}
-
-h1{
+h1.polka{
     text-align: center;
     font-family: "ヒラギノ角ゴ Pro W3";
     border-style: solid;
     border-width: 2px;
     border-color: black;
+    background-image: url("../pics/flowers.jpg");
 }
 h2{
     text-align: center;
@@ -20,6 +17,31 @@ h2{
     border-style: solid;
     border-width: 2px;
     border-color: black;
+}
+
+table.agyou{
+    border:3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(224, 214, 255, 0.8);
+}
+td,th{
+    border:1px solid black;
+    padding:10px;
+}
+
+.definitions ul{
+    display: block;
+    color: #2F4F4F;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: rgba(224, 214, 255, 0.8);
+  border: 1px solid #000000;
+  border-width: 3px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none
 }
 
 #navlist{
@@ -61,7 +83,15 @@ h2{
     font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background-color: rgba(224, 214, 255, 0.8);
   border: 1px solid #2F4F4F;
-  padding: 10px;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+.combination-grid-item {
+    color: #2F4F4F;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  border: 1px solid #2F4F4F;
+  padding: 80px;
   font-size: 30px;
   text-align: center;
 }
