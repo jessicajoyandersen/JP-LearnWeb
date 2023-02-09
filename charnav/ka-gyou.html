@@ -4,6 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Ka-gyou</title>
         <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <script 
+            src="https://kit.fontawesome.com/83d9e74bc2.js" 
+            crossorigin="anonymous">
+        </script>
 
     </head>
     <body>
@@ -13,16 +17,13 @@
             <nav id="navlist">
                 <ul>
                     <li>
-                        <a href="..\nav\gojuuon.html">Syllable Chart</a>
+                        <a href="../nav/gojuuon.html">Syllable Chart</a>
                     </li>
                     <li>
-                        <a href="../nav/digraphs.html">History and Usage</a>
+                        <a href="../nav/kanji.html">Kanji (Chinese Characters)</a>
                     </li>
                     <li>
-                        <a href="../nav/pronunciation.html">Pronunciation</a>
-                    </li>
-                    <li>
-                        <a href="../nav/worksheet.html">Practice and Review</a>
+                        <a href="../nav/lessons.html">Lessons</a>
                     </li>
                     <li>
                         <a href="../index.html">Homepage</a>
@@ -30,14 +31,28 @@
                 </ul>
             </nav>
         </div>
+        
+    <main>
 
+        <div class="flex-box">
+            <span>
+                <h4>
+                    <a href="./a-gyou.html"><i class="fa-solid fa-angles-left"></i><b>あ行</b></a>
+                </h4>
+            </span>
+            <span>
+                <h4>
+                    <a href="./sa-gyou.html"><b>さ行</b><i class="fas fa-angles-right"></i></a>
+                </h4>
+            </span>
+        </div>
+        
         <div class="kagyou">
             <p>The second line of Japanese kana consist of the consonant sound "k", pronounced like "c" in "cat", followed by each of the 5 vowels.</p>
             <p>In order, these are: "ka" (kah), "ki" (kee), "ku" (koo), "ke" (keh), and "ko" (koh).</p></p>
             <p>Examine the following GIFs, and notice the stroke order. Then, practice writing these characters in the canvases, bearing in mind the sound they each represent.</p>
             <p>If you wish to reset the canvases, simply refresh the page.</p>
         </div>
-        <br>
 
         <div class="grid-container">
             <div class="grid-item">ひらがな</div>
@@ -158,6 +173,29 @@
             </div>
 
             <h3>note about g- (name for change) and practice for が・ガ examples</h3>
+
+            <div class="image-container">
+                <a href="https://commons.wikimedia.org/wiki/File:%E3%81%8C-bw.png">
+                    <img id="gaHira" src="pics\gaHira.png" alt="stroke order gif of hiragana Ga">
+            </a>
+                    <canvas id="myCanvas21">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            </div>
+
+            <div class="image-container">
+                <a href="https://commons.wikimedia.org/wiki/File:%E3%82%AC-bw.png">
+                    <img id="gaKata" src="pics\gaKata.png" alt="stroke order gif of katakana Ga">
+            </a>
+                    <canvas id="myCanvas22">
+                        Sorry, your browser does not support HTML5 canvas technology.
+                    </canvas>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            </div>
+
+    </main>
+
         <script src="./atajs/kagyou.js"></script>
     </body>
 </html>

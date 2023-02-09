@@ -1,4 +1,8 @@
 /*index.html*/
+main {
+    margin: 0 10%;
+}
+
 html{
     background-color:rgba(108, 90, 162, 0.8)
 }
@@ -68,9 +72,9 @@ h2{
     color: #2f4f4b;
     font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background-color: rgba(243, 224, 255, 0.917);
-  border: 1px solid #d8ffe7;
-  padding: 10px;
-  font-size: 30px;
+  border: 1px solid rgba(108, 90, 162, 0.8);
+  padding: 5px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -220,54 +224,6 @@ h2{
   }
 
 #myCanvas22 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas23 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas24 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas25 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas26 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas27 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas28 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas29 {
-    width: 60%;
-    height: 235px;
-    border: solid 1px #c8def0;
-    border-radius: 10px;
-}
-#myCanvas30 {
     width: 60%;
     height: 235px;
     border: solid 1px #c8def0;

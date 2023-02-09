@@ -845,3 +845,173 @@ myCanvas20.addEventListener('touchmove', draw.move, false);
 document.body.addEventListener('touchmove', function(evt) {
   evt.preventDefault();
 }, false);
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+const myCanvas21 = document.getElementById("myCanvas21");
+const ctx21 = myCanvas21.getContext("2d");
+
+// Fill Window Width and Height
+ctx21.width = myCanvas21.width = myCanvas21.clientWidth;
+ctx21.height = myCanvas21.height = myCanvas21.clientHeight;
+
+// Set Background Color
+ctx21.fillStyle = "#fff";
+ctx21.fillRect(0, 0, myCanvas21.width, myCanvas21.height);
+
+// Mouse Event Handlers
+if (myCanvas21) {
+  var isDown = false;
+  var canvasX, canvasY;
+  ctx21.lineWidth = 5;
+
+  $(myCanvas21)
+    .mousedown(function(e) {
+      isDown = true;
+      ctx21.beginPath();
+      canvasX = e.pageX - myCanvas21.offsetLeft;
+      canvasY = e.pageY - myCanvas21.offsetTop;
+      ctx21.moveTo(canvasX, canvasY);
+    })
+    .mousemove(function(e) {
+      if (isDown !== false) {
+        canvasX = e.pageX - myCanvas21.offsetLeft;
+        canvasY = e.pageY - myCanvas21.offsetTop;
+        ctx21.lineTo(canvasX, canvasY);
+        ctx21.strokeStyle = "#000";
+        ctx21.stroke();
+      }
+    })
+    .mouseup(function(e) {
+      isDown = false;
+      ctx21.closePath();
+    });
+}
+
+// Touch Events Handlers
+draw = {
+  started: false,
+  start: function(evt) {
+
+    ctx21.beginPath();
+    ctx21.moveTo(
+      evt.touches[0].pageX,
+      evt.touches[0].pageY
+    );
+
+    this.started = true;
+
+  },
+  move: function(evt) {
+
+    if (this.started) {
+      ctx21.lineTo(
+        evt.touches[0].pageX,
+        evt.touches[0].pageY
+      );
+
+      ctx21.strokeStyle = "#000";
+      ctx21.lineWidth = 5;
+      ctx21.stroke();
+    }
+
+  },
+  end: function(evt) {
+    this.started = false;
+  }
+};
+
+// Touch Events
+myCanvas21.addEventListener('touchstart', draw.start, false);
+myCanvas21.addEventListener('touchend', draw.end, false);
+myCanvas21.addEventListener('touchmove', draw.move, false);
+
+// Disable Page Move
+document.body.addEventListener('touchmove', function(evt) {
+  evt.preventDefault();
+}, false);
+
+//-----------------------------------------------------------------------------------------------------------------------------
+
+const myCanvas22 = document.getElementById("myCanvas22");
+const ctx22 = myCanvas22.getContext("2d");
+
+// Fill Window Width and Height
+ctx22.width = myCanvas22.width = myCanvas22.clientWidth;
+ctx22.height = myCanvas22.height = myCanvas22.clientHeight;
+
+// Set Background Color
+ctx22.fillStyle = "#fff";
+ctx22.fillRect(0, 0, myCanvas22.width, myCanvas22.height);
+
+// Mouse Event Handlers
+if (myCanvas22) {
+  var isDown = false;
+  var canvasX, canvasY;
+  ctx22.lineWidth = 5;
+
+  $(myCanvas22)
+    .mousedown(function(e) {
+      isDown = true;
+      ctx22.beginPath();
+      canvasX = e.pageX - myCanvas22.offsetLeft;
+      canvasY = e.pageY - myCanvas22.offsetTop;
+      ctx22.moveTo(canvasX, canvasY);
+    })
+    .mousemove(function(e) {
+      if (isDown !== false) {
+        canvasX = e.pageX - myCanvas22.offsetLeft;
+        canvasY = e.pageY - myCanvas22.offsetTop;
+        ctx22.lineTo(canvasX, canvasY);
+        ctx22.strokeStyle = "#000";
+        ctx22.stroke();
+      }
+    })
+    .mouseup(function(e) {
+      isDown = false;
+      ctx22.closePath();
+    });
+}
+
+// Touch Events Handlers
+draw = {
+  started: false,
+  start: function(evt) {
+
+    ctx22.beginPath();
+    ctx22.moveTo(
+      evt.touches[0].pageX,
+      evt.touches[0].pageY
+    );
+
+    this.started = true;
+
+  },
+  move: function(evt) {
+
+    if (this.started) {
+      ctx22.lineTo(
+        evt.touches[0].pageX,
+        evt.touches[0].pageY
+      );
+
+      ctx22.strokeStyle = "#000";
+      ctx22.lineWidth = 5;
+      ctx22.stroke();
+    }
+
+  },
+  end: function(evt) {
+    this.started = false;
+  }
+};
+
+// Touch Events
+myCanvas22.addEventListener('touchstart', draw.start, false);
+myCanvas22.addEventListener('touchend', draw.end, false);
+myCanvas22.addEventListener('touchmove', draw.move, false);
+
+// Disable Page Move
+document.body.addEventListener('touchmove', function(evt) {
+  evt.preventDefault();
+}, false);
