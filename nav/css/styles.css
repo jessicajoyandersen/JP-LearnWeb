@@ -4,7 +4,7 @@ main {
 }
 
 html{
-    background-color:rgba(108, 90, 162, 0.8)
+    background-color:rgba(194, 129, 197, 0.8)
 }
 
 #navlist{
@@ -23,8 +23,8 @@ h1{
     border-color: black;
     text-shadow:3px 1px black;
 }
-h1.kittyheader{
-    background-image: url("../pics/kawaiipattern.jpg");
+h1.flower-header{
+    background-image: url("../pics/pink-white-flowers.jpg");
 }
 h2{
     text-align: center;
